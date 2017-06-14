@@ -11,7 +11,7 @@ let makeProfile = (function() {
 
 // console.log("the results: ", makeProfile);
 	
-let otherProfile = (function(items) {
+let newProfile = (function(items) {
 	items.newProp = ["Bob Jones", 38, ["trucks", "beer", "hallmark movies"]];
 	return items
 }(makeProfile));
