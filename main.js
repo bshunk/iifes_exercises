@@ -20,6 +20,11 @@ console.log("the results: ", makeProfile);
 
 
 
+// Then augment the iife with a second iife that is 
+// configured to accept an argument of an existing 
+// object. (edited)
+
+
 
 // var globalThing = (function() {
 //   let name = "Fred";
@@ -39,6 +44,3 @@ console.log("the results: ", makeProfile);
 // console.log("global var", globalThing);
 
 
-// Then augment the iife with a second iife that is 
-// configured to accept an argument of an existing 
-// object. (edited)
